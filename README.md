@@ -2,6 +2,7 @@
 
 知乎用户反馈设计与实现
 
+传送门：http://www.jianshu.com/p/04a103247c49
 
 License
 
