@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF8B400E1E34962B0099174F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8B400D1E34962B0099174F /* main.m */; };
+		CF8B40111E34962B0099174F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8B40101E34962B0099174F /* AppDelegate.m */; };
+		CF8B40141E34962B0099174F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8B40131E34962B0099174F /* ViewController.m */; };
+		CF8B40171E34962B0099174F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8B40151E34962B0099174F /* Main.storyboard */; };
+		CF8B40191E34962B0099174F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8B40181E34962B0099174F /* Assets.xcassets */; };
+		CF8B401C1E34962B0099174F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8B401A1E34962B0099174F /* LaunchScreen.storyboard */; };
+		CF8B40271E34962B0099174F /* TLUserFeedbackWindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8B40261E34962B0099174F /* TLUserFeedbackWindowTests.m */; };
+		CF8B40321E34962B0099174F /* TLUserFeedbackWindowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8B40311E34962B0099174F /* TLUserFeedbackWindowUITests.m */; };
+		CF8B40551E3497D90099174F /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8B404D1E3497D90099174F /* ALView+PureLayout.m */; };
+		CF8B40561E3497D90099174F /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8B404F1E3497D90099174F /* NSArray+PureLayout.m */; };
+		CF8B40571E3497D90099174F /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8B40511E3497D90099174F /* NSLayoutConstraint+PureLayout.m */; };
+		CF8B40741E34A1FE0099174F /* DrawBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8B40661E34A1FE0099174F /* DrawBoardView.m */; };
+		CF8B40751E34A1FE0099174F /* DrawBoardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF8B40671E34A1FE0099174F /* DrawBoardView.xib */; };
+		CF8B40761E34A1FE0099174F /* TLDoodleView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8B40691E34A1FE0099174F /* TLDoodleView.m */; };
+		CF8B40771E34A1FE0099174F /* TLHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8B406B1E34A1FE0099174F /* TLHelpViewController.m */; };
+		CF8B40781E34A1FE0099174F /* TLUserFeedbackWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8B406D1E34A1FE0099174F /* TLUserFeedbackWindow.m */; };
+		CF8B40791E34A1FE0099174F /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8B406F1E34A1FE0099174F /* UIImage+Snapshot.m */; };
+		CF8B407A1E34A1FE0099174F /* UIViewController+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8B40711E34A1FE0099174F /* UIViewController+Swizzle.m */; };
+		CF8B407B1E34A1FE0099174F /* UIViewController+TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8B40731E34A1FE0099174F /* UIViewController+TopViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF8B40231E34962B0099174F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8B40011E34962B0099174F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF8B40081E34962B0099174F;
+			remoteInfo = TLUserFeedbackWindow;
+		};
+		CF8B402E1E34962B0099174F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8B40011E34962B0099174F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF8B40081E34962B0099174F;
+			remoteInfo = TLUserFeedbackWindow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF8B40091E34962B0099174F /* TLUserFeedbackWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLUserFeedbackWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8B400D1E34962B0099174F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF8B400F1E34962B0099174F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF8B40101E34962B0099174F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF8B40121E34962B0099174F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF8B40131E34962B0099174F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF8B40161E34962B0099174F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF8B40181E34962B0099174F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF8B401B1E34962B0099174F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF8B401D1E34962B0099174F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8B40221E34962B0099174F /* TLUserFeedbackWindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLUserFeedbackWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8B40261E34962B0099174F /* TLUserFeedbackWindowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLUserFeedbackWindowTests.m; sourceTree = "<group>"; };
+		CF8B40281E34962B0099174F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8B402D1E34962B0099174F /* TLUserFeedbackWindowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLUserFeedbackWindowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8B40311E34962B0099174F /* TLUserFeedbackWindowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLUserFeedbackWindowUITests.m; sourceTree = "<group>"; };
+		CF8B40331E34962B0099174F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8B404C1E3497D90099174F /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		CF8B404D1E3497D90099174F /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		CF8B404E1E3497D90099174F /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		CF8B404F1E3497D90099174F /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		CF8B40501E3497D90099174F /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		CF8B40511E3497D90099174F /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		CF8B40521E3497D90099174F /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		CF8B40531E3497D90099174F /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		CF8B40541E3497D90099174F /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		CF8B40651E34A1FE0099174F /* DrawBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawBoardView.h; sourceTree = "<group>"; };
+		CF8B40661E34A1FE0099174F /* DrawBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawBoardView.m; sourceTree = "<group>"; };
+		CF8B40671E34A1FE0099174F /* DrawBoardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawBoardView.xib; sourceTree = "<group>"; };
+		CF8B40681E34A1FE0099174F /* TLDoodleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLDoodleView.h; sourceTree = "<group>"; };
+		CF8B40691E34A1FE0099174F /* TLDoodleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLDoodleView.m; sourceTree = "<group>"; };
+		CF8B406A1E34A1FE0099174F /* TLHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLHelpViewController.h; sourceTree = "<group>"; };
+		CF8B406B1E34A1FE0099174F /* TLHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLHelpViewController.m; sourceTree = "<group>"; };
+		CF8B406C1E34A1FE0099174F /* TLUserFeedbackWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLUserFeedbackWindow.h; sourceTree = "<group>"; };
+		CF8B406D1E34A1FE0099174F /* TLUserFeedbackWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLUserFeedbackWindow.m; sourceTree = "<group>"; };
+		CF8B406E1E34A1FE0099174F /* UIImage+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		CF8B406F1E34A1FE0099174F /* UIImage+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		CF8B40701E34A1FE0099174F /* UIViewController+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzle.h"; sourceTree = "<group>"; };
+		CF8B40711E34A1FE0099174F /* UIViewController+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzle.m"; sourceTree = "<group>"; };
+		CF8B40721E34A1FE0099174F /* UIViewController+TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TopViewController.h"; sourceTree = "<group>"; };
+		CF8B40731E34A1FE0099174F /* UIViewController+TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TopViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF8B40061E34962B0099174F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8B401F1E34962B0099174F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8B402A1E34962B0099174F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF8B40001E34962B0099174F = {
+			isa = PBXGroup;
+			children = (
+				CF8B400B1E34962B0099174F /* TLUserFeedbackWindow */,
+				CF8B40251E34962B0099174F /* TLUserFeedbackWindowTests */,
+				CF8B40301E34962B0099174F /* TLUserFeedbackWindowUITests */,
+				CF8B400A1E34962B0099174F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF8B400A1E34962B0099174F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF8B40091E34962B0099174F /* TLUserFeedbackWindow.app */,
+				CF8B40221E34962B0099174F /* TLUserFeedbackWindowTests.xctest */,
+				CF8B402D1E34962B0099174F /* TLUserFeedbackWindowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF8B400B1E34962B0099174F /* TLUserFeedbackWindow */ = {
+			isa = PBXGroup;
+			children = (
+				CF8B40641E34A1FE0099174F /* Classes */,
+				CF8B404B1E3497D90099174F /* PureLayout */,
+				CF8B400F1E34962B0099174F /* AppDelegate.h */,
+				CF8B40101E34962B0099174F /* AppDelegate.m */,
+				CF8B40121E34962B0099174F /* ViewController.h */,
+				CF8B40131E34962B0099174F /* ViewController.m */,
+				CF8B40151E34962B0099174F /* Main.storyboard */,
+				CF8B40181E34962B0099174F /* Assets.xcassets */,
+				CF8B401A1E34962B0099174F /* LaunchScreen.storyboard */,
+				CF8B401D1E34962B0099174F /* Info.plist */,
+				CF8B400C1E34962B0099174F /* Supporting Files */,
+			);
+			path = TLUserFeedbackWindow;
+			sourceTree = "<group>";
+		};
+		CF8B400C1E34962B0099174F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF8B400D1E34962B0099174F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF8B40251E34962B0099174F /* TLUserFeedbackWindowTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF8B40261E34962B0099174F /* TLUserFeedbackWindowTests.m */,
+				CF8B40281E34962B0099174F /* Info.plist */,
+			);
+			path = TLUserFeedbackWindowTests;
+			sourceTree = "<group>";
+		};
+		CF8B40301E34962B0099174F /* TLUserFeedbackWindowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF8B40311E34962B0099174F /* TLUserFeedbackWindowUITests.m */,
+				CF8B40331E34962B0099174F /* Info.plist */,
+			);
+			path = TLUserFeedbackWindowUITests;
+			sourceTree = "<group>";
+		};
+		CF8B404B1E3497D90099174F /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				CF8B404C1E3497D90099174F /* ALView+PureLayout.h */,
+				CF8B404D1E3497D90099174F /* ALView+PureLayout.m */,
+				CF8B404E1E3497D90099174F /* NSArray+PureLayout.h */,
+				CF8B404F1E3497D90099174F /* NSArray+PureLayout.m */,
+				CF8B40501E3497D90099174F /* NSLayoutConstraint+PureLayout.h */,
+				CF8B40511E3497D90099174F /* NSLayoutConstraint+PureLayout.m */,
+				CF8B40521E3497D90099174F /* PureLayout+Internal.h */,
+				CF8B40531E3497D90099174F /* PureLayout.h */,
+				CF8B40541E3497D90099174F /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		CF8B40641E34A1FE0099174F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF8B40651E34A1FE0099174F /* DrawBoardView.h */,
+				CF8B40661E34A1FE0099174F /* DrawBoardView.m */,
+				CF8B40671E34A1FE0099174F /* DrawBoardView.xib */,
+				CF8B40681E34A1FE0099174F /* TLDoodleView.h */,
+				CF8B40691E34A1FE0099174F /* TLDoodleView.m */,
+				CF8B406A1E34A1FE0099174F /* TLHelpViewController.h */,
+				CF8B406B1E34A1FE0099174F /* TLHelpViewController.m */,
+				CF8B406C1E34A1FE0099174F /* TLUserFeedbackWindow.h */,
+				CF8B406D1E34A1FE0099174F /* TLUserFeedbackWindow.m */,
+				CF8B406E1E34A1FE0099174F /* UIImage+Snapshot.h */,
+				CF8B406F1E34A1FE0099174F /* UIImage+Snapshot.m */,
+				CF8B40701E34A1FE0099174F /* UIViewController+Swizzle.h */,
+				CF8B40711E34A1FE0099174F /* UIViewController+Swizzle.m */,
+				CF8B40721E34A1FE0099174F /* UIViewController+TopViewController.h */,
+				CF8B40731E34A1FE0099174F /* UIViewController+TopViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF8B40081E34962B0099174F /* TLUserFeedbackWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8B40361E34962B0099174F /* Build configuration list for PBXNativeTarget "TLUserFeedbackWindow" */;
+			buildPhases = (
+				CF8B40051E34962B0099174F /* Sources */,
+				CF8B40061E34962B0099174F /* Frameworks */,
+				CF8B40071E34962B0099174F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLUserFeedbackWindow;
+			productName = TLUserFeedbackWindow;
+			productReference = CF8B40091E34962B0099174F /* TLUserFeedbackWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF8B40211E34962B0099174F /* TLUserFeedbackWindowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8B40391E34962B0099174F /* Build configuration list for PBXNativeTarget "TLUserFeedbackWindowTests" */;
+			buildPhases = (
+				CF8B401E1E34962B0099174F /* Sources */,
+				CF8B401F1E34962B0099174F /* Frameworks */,
+				CF8B40201E34962B0099174F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF8B40241E34962B0099174F /* PBXTargetDependency */,
+			);
+			name = TLUserFeedbackWindowTests;
+			productName = TLUserFeedbackWindowTests;
+			productReference = CF8B40221E34962B0099174F /* TLUserFeedbackWindowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF8B402C1E34962B0099174F /* TLUserFeedbackWindowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8B403C1E34962B0099174F /* Build configuration list for PBXNativeTarget "TLUserFeedbackWindowUITests" */;
+			buildPhases = (
+				CF8B40291E34962B0099174F /* Sources */,
+				CF8B402A1E34962B0099174F /* Frameworks */,
+				CF8B402B1E34962B0099174F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF8B402F1E34962B0099174F /* PBXTargetDependency */,
+			);
+			name = TLUserFeedbackWindowUITests;
+			productName = TLUserFeedbackWindowUITests;
+			productReference = CF8B402D1E34962B0099174F /* TLUserFeedbackWindowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF8B40011E34962B0099174F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Maxwell;
+				TargetAttributes = {
+					CF8B40081E34962B0099174F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 96PFYKQ596;
+						ProvisioningStyle = Automatic;
+					};
+					CF8B40211E34962B0099174F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF8B40081E34962B0099174F;
+					};
+					CF8B402C1E34962B0099174F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF8B40081E34962B0099174F;
+					};
+				};
+			};
+			buildConfigurationList = CF8B40041E34962B0099174F /* Build configuration list for PBXProject "TLUserFeedbackWindow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF8B40001E34962B0099174F;
+			productRefGroup = CF8B400A1E34962B0099174F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF8B40081E34962B0099174F /* TLUserFeedbackWindow */,
+				CF8B40211E34962B0099174F /* TLUserFeedbackWindowTests */,
+				CF8B402C1E34962B0099174F /* TLUserFeedbackWindowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF8B40071E34962B0099174F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8B401C1E34962B0099174F /* LaunchScreen.storyboard in Resources */,
+				CF8B40191E34962B0099174F /* Assets.xcassets in Resources */,
+				CF8B40171E34962B0099174F /* Main.storyboard in Resources */,
+				CF8B40751E34A1FE0099174F /* DrawBoardView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8B40201E34962B0099174F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8B402B1E34962B0099174F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF8B40051E34962B0099174F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8B40741E34A1FE0099174F /* DrawBoardView.m in Sources */,
+				CF8B407A1E34A1FE0099174F /* UIViewController+Swizzle.m in Sources */,
+				CF8B40141E34962B0099174F /* ViewController.m in Sources */,
+				CF8B40111E34962B0099174F /* AppDelegate.m in Sources */,
+				CF8B40791E34A1FE0099174F /* UIImage+Snapshot.m in Sources */,
+				CF8B40761E34A1FE0099174F /* TLDoodleView.m in Sources */,
+				CF8B40551E3497D90099174F /* ALView+PureLayout.m in Sources */,
+				CF8B40771E34A1FE0099174F /* TLHelpViewController.m in Sources */,
+				CF8B407B1E34A1FE0099174F /* UIViewController+TopViewController.m in Sources */,
+				CF8B40561E3497D90099174F /* NSArray+PureLayout.m in Sources */,
+				CF8B40571E3497D90099174F /* NSLayoutConstraint+PureLayout.m in Sources */,
+				CF8B400E1E34962B0099174F /* main.m in Sources */,
+				CF8B40781E34A1FE0099174F /* TLUserFeedbackWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8B401E1E34962B0099174F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8B40271E34962B0099174F /* TLUserFeedbackWindowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8B40291E34962B0099174F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8B40321E34962B0099174F /* TLUserFeedbackWindowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF8B40241E34962B0099174F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF8B40081E34962B0099174F /* TLUserFeedbackWindow */;
+			targetProxy = CF8B40231E34962B0099174F /* PBXContainerItemProxy */;
+		};
+		CF8B402F1E34962B0099174F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF8B40081E34962B0099174F /* TLUserFeedbackWindow */;
+			targetProxy = CF8B402E1E34962B0099174F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF8B40151E34962B0099174F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF8B40161E34962B0099174F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF8B401A1E34962B0099174F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF8B401B1E34962B0099174F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF8B40341E34962B0099174F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF8B40351E34962B0099174F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF8B40371E34962B0099174F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 96PFYKQ596;
+				INFOPLIST_FILE = TLUserFeedbackWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Maxwell.TLUserFeedbackWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF8B40381E34962B0099174F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 96PFYKQ596;
+				INFOPLIST_FILE = TLUserFeedbackWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Maxwell.TLUserFeedbackWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF8B403A1E34962B0099174F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TLUserFeedbackWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Maxwell.TLUserFeedbackWindowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLUserFeedbackWindow.app/TLUserFeedbackWindow";
+			};
+			name = Debug;
+		};
+		CF8B403B1E34962B0099174F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TLUserFeedbackWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Maxwell.TLUserFeedbackWindowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLUserFeedbackWindow.app/TLUserFeedbackWindow";
+			};
+			name = Release;
+		};
+		CF8B403D1E34962B0099174F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TLUserFeedbackWindowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Maxwell.TLUserFeedbackWindowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TLUserFeedbackWindow;
+			};
+			name = Debug;
+		};
+		CF8B403E1E34962B0099174F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TLUserFeedbackWindowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Maxwell.TLUserFeedbackWindowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TLUserFeedbackWindow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF8B40041E34962B0099174F /* Build configuration list for PBXProject "TLUserFeedbackWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8B40341E34962B0099174F /* Debug */,
+				CF8B40351E34962B0099174F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8B40361E34962B0099174F /* Build configuration list for PBXNativeTarget "TLUserFeedbackWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8B40371E34962B0099174F /* Debug */,
+				CF8B40381E34962B0099174F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8B40391E34962B0099174F /* Build configuration list for PBXNativeTarget "TLUserFeedbackWindowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8B403A1E34962B0099174F /* Debug */,
+				CF8B403B1E34962B0099174F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8B403C1E34962B0099174F /* Build configuration list for PBXNativeTarget "TLUserFeedbackWindowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8B403D1E34962B0099174F /* Debug */,
+				CF8B403E1E34962B0099174F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF8B40011E34962B0099174F /* Project object */;
+}
