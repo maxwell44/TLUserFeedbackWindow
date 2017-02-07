@@ -22,6 +22,4 @@
     return finalImage;
 }
 
-
-
 @end

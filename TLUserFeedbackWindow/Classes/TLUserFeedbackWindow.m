@@ -210,7 +210,7 @@
     [self.doodleView setNeedsDisplay];
 }
 
-#pragma mark -  TLDoodleViewDelegate
+#pragma mark - TLDoodleViewDelegate
 
 - (void)hideUserFeedbackWindowRelevanceView {
     
@@ -278,8 +278,6 @@
     [self.doodleView viewWithTag:5].layer.borderWidth = 0;
     [self.doodleView viewWithTag:6].layer.borderWidth = 0;
 }
-
-
 
 #pragma mark - Helper
 

@@ -2,8 +2,8 @@
 //  UIViewController+TopViewController.m
 //  Tella
 //
-//  Created by Tian on 15/6/20.
-//  Copyright (c) 2015年 Saunter Studio. All rights reserved.
+//  Created by Maxwell on 2016/10/24.
+//  Copyright © 2016年 Saunter Studio. All rights reserved.
 //
 
 #import "UIViewController+TopViewController.h"

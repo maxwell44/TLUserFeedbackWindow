@@ -2,8 +2,8 @@
 //  UserProfileSectionHeaderView.m
 //  onepage
 //
-//  Created by Tian on 15/8/19.
-//  Copyright (c) 2015年 Saunter Studio. All rights reserved.
+//  Created by Maxwell on 2016/10/24.
+//  Copyright © 2016年 Saunter Studio. All rights reserved.
 //
 
 #import "DrawBoardView.h"
